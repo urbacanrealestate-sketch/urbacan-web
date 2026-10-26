@@ -1,0 +1,83 @@
+name: Publicar web
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Desempaquetar paquete.zip (solo si existe)
+        run: |
+          if [ -f paquete.zip ]; then
+            unzip -o paquete.zip -d .
+            rm paquete.zip
+          fi
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Instalar herramientas
+        run: npm install --no-audit --no-fund
+
+      - name: Importar fotos y fuentes que falten
+        run: node scripts/importar.mjs
+
+      - name: Guardar en el repositorio lo nuevo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "Importación automática [skip ci]"
+            git push
+          fi
+
+      - name: Generar la web
+        run: node scripts/build.mjs
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  lighthouse:
+    needs: publicar
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Instalar herramientas
+        run: npm install --no-audit --no-fund
+      - name: Lighthouse móvil
+        run: node scripts/lighthouse.mjs
