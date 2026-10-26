@@ -92,7 +92,7 @@ em{font-family:var(--serif);font-style:italic;color:var(--dorado)}
 /* ---------- Portada ---------- */
 .portada{position:relative;min-height:min(92svh,860px);display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
 .portada picture,.portada img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
-.portada::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,18,15,.35) 0%,rgba(20,18,15,.15) 35%,rgba(20,18,15,.82) 78%,var(--tinta) 100%)}
+.portada::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(20,18,15,.35) 0%,rgba(20,18,15,.1) 30%,rgba(20,18,15,.78) 72%,var(--tinta) 100%),linear-gradient(90deg,rgba(20,18,15,.7) 0%,rgba(20,18,15,.35) 45%,rgba(20,18,15,0) 75%)}
 .portada .contenedor{padding-top:30vh;padding-bottom:clamp(2rem,6vw,4.5rem)}
 .portada h1{max-width:15ch;margin-bottom:.4em}
 .portada .intro{max-width:52ch;color:#e6dfd1;font-size:1.08rem}
@@ -156,7 +156,7 @@ em{font-family:var(--serif);font-style:italic;color:var(--dorado)}
 .region .txt{position:absolute;left:0;right:0;bottom:0;padding:clamp(1.25rem,4vw,2.2rem)}
 .region h3{font-size:clamp(2rem,5vw,2.8rem);margin:.4rem 0 .3rem}
 .region p{margin:0;color:#e3dccd;max-width:36ch}
-.region .mas{display:inline-flex;align-items:center;gap:.5rem;margin-top:1rem;font:500 .72rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dorado)}
+.region .mas{display:inline-flex;white-space:nowrap;align-items:center;gap:.5rem;margin-top:1rem;font:500 .72rem/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--dorado)}
 
 /* ---------- Cómo trabajamos ---------- */
 .pasos{display:grid;gap:0;counter-reset:paso;border-top:1px solid var(--linea)}

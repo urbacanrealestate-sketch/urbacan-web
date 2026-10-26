@@ -51,6 +51,18 @@ for (const [id, entrada] of Object.entries(origen)) {
         await aWebp(buf, path.join(dir, f.archivo));
         hechas++;
       }
+    } else if (entrada.pagina && entrada.variable) {
+      // Galería guardada en la página como: const IMGS=[{"alt":"…","src":"data:image/…"}, …];
+      const html = (await bajar(entrada.pagina)).toString("utf8");
+      const m = new RegExp(`(?:const|let|var)\\s+${entrada.variable}\\s*=\\s*(\\[[\\s\\S]*?\\]);`).exec(html);
+      if (!m) throw new Error(`no se encuentra ${entrada.variable} en ${entrada.pagina}`);
+      const lista = JSON.parse(m[1]);
+      let n = 1;
+      for (const img of lista) {
+        const buf = datosDeSrc(img.src) || await bajar(new URL(img.src, entrada.pagina).href);
+        await aWebp(buf, path.join(dir, `${String(n).padStart(2, "0")}.webp`));
+        n++; hechas++;
+      }
     } else if (entrada.pagina) {
       const html = (await bajar(entrada.pagina)).toString("utf8");
       const imgs = imgsDeHtml(html);
