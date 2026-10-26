@@ -3,7 +3,9 @@
 import fs from "node:fs";
 import http from "node:http";
 import path from "node:path";
-import { execSync } from "node:child_process";
+import { execSync, exec } from "node:child_process";
+import { promisify } from "node:util";
+const execP = promisify(exec);
 import { fileURLToPath } from "node:url";
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -27,21 +29,23 @@ const servidor = http.createServer((req, res) => {
 });
 await new Promise((ok) => servidor.listen(PUERTO, ok));
 
-const lh = (url) => {
+const lh = async (url) => {
   const out = `/tmp/lh-${Buffer.from(url).toString("hex").slice(-24)}.json`;
   try {
-    execSync(`npx --yes lighthouse@12.2.1 "${url}" --quiet --output=json --output-path=${out} --only-categories=performance,accessibility,best-practices,seo --chrome-flags="--headless=new --no-sandbox"`, { stdio: "inherit", timeout: 180000 });
+    // exec asíncrono: el servidor local sigue respondiendo mientras Lighthouse mide
+    await execP(`npx --yes lighthouse@12.2.1 "${url}" --quiet --output=json --output-path=${out} --only-categories=performance,accessibility,best-practices,seo --chrome-flags="--headless=new --no-sandbox"`, { timeout: 150000, maxBuffer: 1 << 26 });
     const j = JSON.parse(fs.readFileSync(out, "utf8"));
     const c = j.categories;
-    const malos = Object.values(j.audits).filter((a) => a.score !== null && a.score < 0.9 && a.scoreDisplayMode === "binary" || (a.score !== null && a.score < 0.5 && a.scoreDisplayMode === "numeric")).map((a) => a.id).slice(0, 8);
+    const malos = Object.values(j.audits).filter((a) => a.score !== null && ((a.scoreDisplayMode === "binary" && a.score < 1) || (a.scoreDisplayMode === "numeric" && a.score < 0.5))).map((a) => a.id).slice(0, 8);
     return { url, p: Math.round(c.performance.score * 100), a: Math.round(c.accessibility.score * 100), b: Math.round(c["best-practices"].score * 100), s: Math.round(c.seo.score * 100), lcp: j.audits["largest-contentful-paint"].displayValue, cls: j.audits["cumulative-layout-shift"].displayValue, malos };
-  } catch (e) { return { url, error: e.message.slice(0, 200) }; }
+  } catch (e) { return { url, error: String(e.message).slice(0, 200) }; }
 };
 
-await new Promise((ok) => setTimeout(ok, 20000));
+await new Promise((ok) => setTimeout(ok, 15000));
+await execP("npx --yes lighthouse@12.2.1 --version", { timeout: 120000 });
 const filas = [];
-for (const r of rutas) filas.push({ modo: "publicada (provisional, noindex)", ...lh(`${sitio.url_provisional}${r}`) });
-for (const r of rutas) filas.push({ modo: "local (definitiva, indexable)", ...lh(`http://localhost:${PUERTO}${r}`) });
+for (const r of rutas) { const x = await lh(`${sitio.url_provisional}${r}`); console.log(JSON.stringify(x)); filas.push({ modo: "publicada (provisional, noindex)", ...x }); }
+for (const r of rutas) { const x = await lh(`http://localhost:${PUERTO}${r}`); console.log(JSON.stringify(x)); filas.push({ modo: "local (definitiva, indexable)", ...x }); }
 servidor.close();
 
 let md = "## Lighthouse móvil\n\n| Modo | Página | Rendimiento | Accesibilidad | Buenas prácticas | SEO | LCP | CLS | Auditorías a revisar |\n|---|---|---|---|---|---|---|---|---|\n";
