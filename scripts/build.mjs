@@ -172,7 +172,7 @@ function cabecera(ruta) {
   const a = (t, r) => `<a href="${u(r)}"${ruta === r ? ' aria-current="page"' : ""}>${t}</a>`;
   return `<header class="cabecera">
   <div class="contenedor">
-    <a class="marca" href="${u("/")}" aria-label="Urbacan Real Estate, inicio">${EMBLEMA()}<span><b>URBACAN</b><small>REAL ESTATE</small></span></a>
+    <a class="marca" href="${u("/")}">${EMBLEMA()}<span><b>URBACAN</b><small>REAL ESTATE</small></span></a>
     <nav class="nav" aria-label="Principal">${links.map(([t, r]) => a(t, r)).join("")}</nav>
     <div class="cab-acciones">
       <button class="btn-menu" type="button" aria-expanded="false" aria-controls="menu-movil" aria-label="Abrir menú">${I.menu}</button>
@@ -187,7 +187,7 @@ function pie() {
   return `<footer class="pie">
   <div class="contenedor">
     <div>
-      <a class="marca" href="${u("/")}" aria-label="Urbacan Real Estate, inicio">${EMBLEMA()}<span><b>URBACAN</b><small>REAL ESTATE</small></span></a>
+      <a class="marca" href="${u("/")}">${EMBLEMA()}<span><b>URBACAN</b><small>REAL ESTATE</small></span></a>
       <p style="margin-top:1rem;max-width:38ch">${esc(sitio.lema)}.</p>
       <p>${esc(C.direccion)}</p>
     </div>
@@ -224,7 +224,7 @@ async function miniatura(p, { sizes = "(min-width:1100px) 33vw, (min-width:700px
   <div class="foto">${imgTag(info, fotoAlt(p, 0), { sizes })}${sello ? `<span class="sello">${esc(sello)}</span>` : ""}</div>
   <div class="cuerpo">
     <p class="zona">${esc(p.zona)}${p.region === "peninsula" ? ` · ${esc(p.provincia)}` : ""}</p>
-    <h3><a class="cubre" href="${destino}"${externo ? ' target="_blank" rel="noopener"' : ""}><span class="vh">Ver </span></a>${esc(p.titulo)}</h3>
+    <h3><a class="cubre" href="${destino}"${externo ? ' target="_blank" rel="noopener"' : ""}>${esc(p.titulo)}</a></h3>
     <p class="datos">${datos.map((d) => `<span>${esc(d)}</span>`).join("")}</p>
     <div class="precio"><strong>${esc(precioTexto(p))}</strong><span class="ver">Ver ficha →</span></div>
   </div>
@@ -371,6 +371,7 @@ async function paginaRegion(r) {
       <p class="texto-suave">${intro}</p>
     </div>
     ${provincias.length > 1 ? `<div class="filtros" role="group" aria-label="Filtrar por provincia"><button type="button" data-filtro="todas" aria-pressed="true">Todas</button>${provincias.map((pv) => `<button type="button" data-filtro="${esc(pv)}" aria-pressed="false">${esc(pv)}</button>`).join("")}</div><p class="vh" id="estado-filtro" aria-live="polite"></p>` : ""}
+    <h2 class="vh">Propiedades disponibles</h2>
     <div class="rejilla${lista.length === 1 ? " una" : ""}">${minis}</div>
     <p class="nota-precios">${nota}</p>
   </div>
