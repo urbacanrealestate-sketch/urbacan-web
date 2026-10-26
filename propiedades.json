@@ -1,0 +1,1018 @@
+{
+  "propiedades": [
+    {
+      "id": "la-naval-80",
+      "region": "canarias",
+      "estado": "activa",
+      "orden": 1,
+      "titulo": "La Naval, 80",
+      "zona": "La Isleta, Las Palmas de Gran Canaria",
+      "provincia": "Las Palmas",
+      "tipologia": "Piso",
+      "precio_desde": 235000,
+      "precio_tipo": "cerrado",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "2",
+      "banos": "1",
+      "m2": "70",
+      "entrega": null,
+      "estado_vivienda": "Segunda mano, buen estado",
+      "coordenadas": null,
+      "direccion": "La Naval, 80, La Isleta, Las Palmas de Gran Canaria",
+      "descripcion": [
+        "Piso junto a la playa de Las Canteras, en el barrio de La Isleta, a unos 200 metros de la playa. El mar, el paseo marítimo, las terrazas y los servicios (supermercados, farmacias, transporte público y comercio local) quedan a pie de calle.",
+        "Está en una primera planta exterior, con un solo tramo de escalera y sin ascensor. Distribución funcional y bien aprovechada, con buena luz natural."
+      ],
+      "caracteristicas": [
+        "70 m² construidos, 60 m² útiles",
+        "2 dormitorios",
+        "1 baño",
+        "Primera planta exterior, sin ascensor",
+        "Año de construcción: 2003",
+        "Sin calefacción",
+        "Comunidad: 60 €/mes",
+        "Certificado energético: 130 kWh/m² año; 25 kg CO₂/m² año",
+        "Playa de Las Canteras a unos 200 m"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Salón comedor con luz natural"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Salón"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Salón y entrada a la cocina"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Dormitorio principal"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Cocina"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Cocina con zona de lavadora"
+        }
+      ],
+      "enlaces": {
+        "habihub": null,
+        "thenewpropers": null,
+        "anuncio": "https://www.idealista.com/inmueble/112212143/",
+        "landing": "https://urbacanrealestate-sketch.github.io/urbacan-anuncios/"
+      }
+    },
+    {
+      "id": "waldorf-astoria",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 1,
+      "titulo": "Waldorf Astoria",
+      "zona": "Benijófar",
+      "provincia": "Alicante",
+      "tipologia": "Apartamentos, bajos y áticos",
+      "precio_desde": 263000,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "2 – 3",
+      "banos": "2",
+      "m2": "79 – 147",
+      "entrega": "Q3 2026",
+      "coordenadas": [
+        38.074802,
+        -0.738434
+      ],
+      "descripcion": [
+        "Conjunto residencial de 28 viviendas en Benijófar: apartamentos, bajos y áticos diseñadas para la comodidad.",
+        "Todas las viviendas tienen terraza; algunas tipologías incluyen jardín privado y los áticos cuentan con solárium, ideal para disfrutar del sol todo el año. El aeropuerto está a unos 49 km."
+      ],
+      "caracteristicas": [
+        "2 y 3 dormitorios",
+        "2 baños",
+        "Desde 78 m² construidos",
+        "Jardín privado en algunas tipologías (desde 32 m²)",
+        "Solárium en los áticos",
+        "1 plaza de aparcamiento",
+        "Mar a 10 km",
+        "Campo de golf a 4,3 km",
+        "Aeropuerto a 49 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Fachada del residencial al atardecer"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Vista exterior del edificio"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Acceso y plantas bajas"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Fachada con zonas verdes"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Esquina del edificio con terrazas"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Exterior con vegetación"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Terrazas con revestimiento de madera"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Vista lateral del edificio"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Vista general del conjunto"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Fachada y aparcamiento"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Conjunto residencial completo"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Perfil del edificio"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/10218537",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/10218537"
+      },
+      "referencia_habihub": "10218537"
+    },
+    {
+      "id": "sol-de-salinas",
+      "region": "peninsula",
+      "estado": "pendiente",
+      "orden": 11,
+      "titulo": "Sol de Salinas",
+      "zona": "San Miguel de Salinas",
+      "provincia": "Alicante",
+      "tipologia": "Apartamentos, bajos y áticos",
+      "precio_desde": 245000,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "2 – 3",
+      "banos": "2",
+      "m2": "73 – 98",
+      "entrega": "Q4 2026",
+      "coordenadas": [
+        37.982439,
+        -0.792563
+      ],
+      "descripcion": [
+        "Residencial de 42 viviendas en San Miguel de Salinas: apartamentos, bajos y áticos con piscina, zonas ajardinadas y urbanización cerrada.",
+        "Las viviendas se entregan con aire acondicionado, armarios empotrados, electrodomésticos y suelos de gres porcelánico."
+      ],
+      "caracteristicas": [
+        "2 y 3 dormitorios",
+        "2 baños",
+        "Desde 73 m² construidos",
+        "Piscina comunitaria",
+        "Zonas ajardinadas",
+        "Urbanización cerrada",
+        "1 plaza de aparcamiento",
+        "Mar a 9 km",
+        "Campo de golf a 8,9 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Piscina con palmeras"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Zonas comunes ajardinadas"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Vista aérea del residencial"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Piscina y jardines"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Salón"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Salón de la vivienda piloto"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Comedor"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Comedor con mesa redonda"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Cocina"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Dormitorio"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Baño"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Edificio exterior"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/24548026",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/24548026"
+      },
+      "referencia_habihub": "24548026",
+      "nota_interna": "Pendiente de confirmar antes de publicar. Para publicarla, cambia estado a \"activa\"."
+    },
+    {
+      "id": "sunplace-iii",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 9,
+      "titulo": "Sunplace III The Life",
+      "zona": "Pilar de la Horadada",
+      "provincia": "Alicante",
+      "tipologia": "Apartamentos, bajos y áticos",
+      "precio_desde": 249000,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "2 – 3",
+      "banos": "2",
+      "m2": "84 – 127",
+      "entrega": "Q2 2025",
+      "coordenadas": [
+        37.859786,
+        -0.781315
+      ],
+      "descripcion": [
+        "Residencial de 53 viviendas en Pilar de la Horadada, a unos 2 km del mar: apartamentos, bajos y áticos con piscina, zonas ajardinadas y urbanización cerrada.",
+        "Cada vivienda tiene terraza; algunas incluyen jardín privado y los áticos, solárium. Armarios empotrados y preinstalación de aire acondicionado."
+      ],
+      "caracteristicas": [
+        "2 y 3 dormitorios",
+        "2 baños",
+        "Desde 83 m² construidos",
+        "Jardín privado en algunas tipologías (desde 17 m²)",
+        "Solárium en los áticos",
+        "Piscina comunitaria",
+        "Garaje y aparcamiento",
+        "Mar a 2 km",
+        "Aeropuerto a 44 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Residencial con jardín y piscina"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Terraza con vistas"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Salón"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Cocina abierta al salón"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Dormitorio"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Baño"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/35274430",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/35274430"
+      },
+      "referencia_habihub": "35274430"
+    },
+    {
+      "id": "vegasol-homes",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 8,
+      "titulo": "Vegasol Homes 1",
+      "zona": "Cox",
+      "provincia": "Alicante",
+      "tipologia": "Adosados",
+      "precio_desde": 233000,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "2 – 3",
+      "banos": "2 + aseo",
+      "m2": "82",
+      "entrega": "Q2 2025",
+      "coordenadas": [
+        38.140407,
+        -0.918005
+      ],
+      "descripcion": [
+        "Conjunto de adosados en Cox, en una zona tranquila y bien comunicada, con opciones de 2 y 3 dormitorios.",
+        "Cada vivienda cuenta con jardín privado, terrazas amplias y solárium. Persianas eléctricas, electrodomésticos, armarios empotrados y posibilidad de carga de vehículo eléctrico. Piscina comunitaria y urbanización cerrada."
+      ],
+      "caracteristicas": [
+        "2 y 3 dormitorios",
+        "2 baños y aseo",
+        "Desde 81 m² construidos",
+        "Jardín privado (desde 36 m²)",
+        "Solárium",
+        "Piscina comunitaria",
+        "Urbanización cerrada",
+        "Preparación para carga de vehículo eléctrico",
+        "Aeropuerto a 40 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Piscina comunitaria"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Jardín con zona de estar"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Vista aérea de las viviendas"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Vista general del conjunto"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Calle y adosados"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Adosados con vistas a la montaña"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Vista aérea con piscina"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Piscina y solárium"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Salón"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Salón comedor"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Salón con cocina"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Acceso al residencial"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/58889472",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/58889472"
+      },
+      "referencia_habihub": "58889472"
+    },
+    {
+      "id": "la-montanosa",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 10,
+      "titulo": "Urbanización La Montañosa",
+      "zona": "Hondón de las Nieves",
+      "provincia": "Alicante",
+      "tipologia": "Villas independientes",
+      "precio_desde": 399900,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "3",
+      "banos": "2",
+      "m2": "108 – 129",
+      "entrega": "Q1 2025",
+      "coordenadas": [
+        38.292704,
+        -0.895394
+      ],
+      "descripcion": [
+        "Villas independientes de una planta en Hondón de las Nieves, en un entorno tranquilo y natural con vistas a la montaña.",
+        "Cada vivienda tiene jardín privado y terrazas, con opción de piscina privada. Urbanización cerrada; el aeropuerto está a unos 33 km."
+      ],
+      "caracteristicas": [
+        "3 dormitorios",
+        "2 baños",
+        "Desde 108 m² construidos",
+        "Vivienda en una planta",
+        "Jardín privado",
+        "Opción de piscina privada",
+        "1 plaza de aparcamiento",
+        "Urbanización cerrada",
+        "Aeropuerto a 33 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Villa con piscina privada"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Villa al atardecer"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Porche y piscina"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Salón"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Comedor"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Cocina con isla"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Salón con chimenea"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Comedor con salida al jardín"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Dormitorio principal"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Dormitorio"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Dormitorio con luz natural"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Comedor"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/23150283",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/23150283"
+      },
+      "referencia_habihub": "23150283"
+    },
+    {
+      "id": "la-marina-beach",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 4,
+      "titulo": "La Marina Beach",
+      "zona": "Finestrat",
+      "provincia": "Alicante",
+      "tipologia": "Apartamentos, bajos y áticos",
+      "precio_desde": 360000,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "2",
+      "banos": "2",
+      "m2": "74 – 89",
+      "entrega": "Q1 2026",
+      "coordenadas": [
+        38.5412,
+        -0.180655
+      ],
+      "descripcion": [
+        "Residencial de 25 viviendas en Finestrat, a unos 4 km del mar: apartamentos, plantas bajas y áticos con vistas al mar y a la montaña.",
+        "Terrazas y solárium; algunas tipologías con jardín privado u opción de piscina privada. Persianas eléctricas y aire acondicionado. Piscina, zonas ajardinadas, pista de pádel y urbanización cerrada; campo de golf a 2 km."
+      ],
+      "caracteristicas": [
+        "2 dormitorios",
+        "2 baños",
+        "Desde 73 m² construidos",
+        "Vistas al mar y a la montaña",
+        "Piscina comunitaria",
+        "Pista de pádel",
+        "Urbanización cerrada",
+        "Campo de golf a 2 km",
+        "Mar a 4 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Piscina comunitaria"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Edificio con terrazas"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Terrazas con jardín"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Fachada del residencial"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Terraza con tumbonas"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Salón"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Cocina"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Salón comedor"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Salón con salida a terraza"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Zona infantil y jardines"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Edificio entre jardines"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Vista del entorno"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/71577609",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/71577609"
+      },
+      "referencia_habihub": "71577609"
+    },
+    {
+      "id": "oasis-de-la-cala",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 3,
+      "titulo": "El Oasis de la Cala",
+      "zona": "La Cala",
+      "provincia": "Alicante",
+      "tipologia": "Apartamentos y áticos",
+      "precio_desde": 280000,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "2",
+      "banos": "2",
+      "m2": "77 – 82",
+      "entrega": "Q3 2024",
+      "coordenadas": [
+        38.535706,
+        -0.169454
+      ],
+      "descripcion": [
+        "Residencial de 14 viviendas en La Cala, a 1 km del mar: apartamentos y áticos con vistas al mar.",
+        "Terrazas privadas, solárium en algunas viviendas y pérgolas. Aire acondicionado, electrodomésticos, armarios empotrados y suelos de gres porcelánico. Piscina y zonas ajardinadas."
+      ],
+      "caracteristicas": [
+        "2 dormitorios",
+        "2 baños",
+        "Desde 76 m² construidos",
+        "Vistas al mar",
+        "Piscina comunitaria",
+        "Zonas ajardinadas",
+        "Mar a 1 km",
+        "Campo de golf a 4,8 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Edificio con piscina"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Residencial y zonas verdes"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Vista aérea de la costa"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Vistas a la ciudad"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Salón con vistas"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Dormitorio con ventanal"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Salón comedor"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Cocina"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Dormitorio"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Baño"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Vistas desde el dormitorio"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Vista del edificio"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/25162618",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/25162618"
+      },
+      "referencia_habihub": "25162618"
+    },
+    {
+      "id": "vernissa",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 6,
+      "titulo": "Residencial Vernissa",
+      "zona": "Dénia",
+      "provincia": "Alicante",
+      "tipologia": "Adosados",
+      "precio_desde": 395000,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "3",
+      "banos": "3",
+      "m2": "196 – 354",
+      "entrega": "Q1 2026",
+      "coordenadas": [
+        38.869287,
+        -0.013737
+      ],
+      "descripcion": [
+        "Colección de adosados en Dénia, a unos 200 metros de la costa, pensados para familias y parejas que quieren vivir junto al mar.",
+        "Cada vivienda tiene jardín privado, terrazas y garaje. Piscina comunitaria, zonas ajardinadas y urbanización cerrada."
+      ],
+      "caracteristicas": [
+        "3 dormitorios",
+        "3 baños",
+        "Desde 196 m² construidos",
+        "Jardín privado",
+        "Garaje",
+        "Piscina comunitaria",
+        "Urbanización cerrada",
+        "Mar a 200 m",
+        "Campo de golf a 6 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Piscina comunitaria con palmeras"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Jardines comunes"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Salón"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Comedor"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Dormitorio"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Fachada de los adosados"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Fachada y jardín"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/95162433",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/95162433"
+      },
+      "referencia_habihub": "95162433"
+    },
+    {
+      "id": "belich-iii",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 7,
+      "titulo": "Residencial Belich III",
+      "zona": "San Pedro del Pinatar",
+      "provincia": "Murcia",
+      "tipologia": "Apartamentos y bungalows",
+      "precio_desde": 245000,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "2 – 3",
+      "banos": "2",
+      "m2": "100 – 140",
+      "entrega": "Q3 2025",
+      "coordenadas": [
+        37.829684,
+        -0.778094
+      ],
+      "descripcion": [
+        "Residencial de 17 viviendas en San Pedro del Pinatar, a unos 3 km del mar: apartamentos y bungalows.",
+        "Jardín privado y terrazas en cada vivienda; los bungalows tienen solárium. Electrodomésticos, armarios empotrados y preinstalación de aire acondicionado, con posibilidad de punto de carga para coche eléctrico. Piscina y urbanización cerrada."
+      ],
+      "caracteristicas": [
+        "2 y 3 dormitorios",
+        "2 baños",
+        "Desde 99 m² construidos",
+        "Jardín privado (desde 21 m²)",
+        "Solárium en los bungalows",
+        "Piscina comunitaria",
+        "Garaje y aparcamiento",
+        "Mar a 3 km",
+        "Aeropuerto a 44 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Piscina comunitaria"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Viviendas con jardín"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Vista aérea del residencial"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Vista aérea con las salinas al fondo"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Piscina y fachadas"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Jardín privado"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Entorno y salinas"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Fachada con terrazas"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Vista aérea con piscinas"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Jardín comunitario"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Vista aérea del conjunto"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Fachada y jardín"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/67482390",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/67482390"
+      },
+      "referencia_habihub": "67482390"
+    },
+    {
+      "id": "pinatar-luxury-homes",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 2,
+      "titulo": "Pinatar Luxury Homes",
+      "zona": "San Pedro del Pinatar",
+      "provincia": "Murcia",
+      "tipologia": "Apartamentos, bajos y áticos",
+      "precio_desde": 284900,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "2 – 3",
+      "banos": "2",
+      "m2": "85 – 140",
+      "entrega": "Q3 2026",
+      "coordenadas": [
+        37.832453,
+        -0.796879
+      ],
+      "descripcion": [
+        "Residencial de 57 viviendas en San Pedro del Pinatar, a 1 km del mar: apartamentos, plantas bajas y áticos.",
+        "Todas las viviendas tienen terraza; las plantas bajas, jardín privado, y los áticos, solárium. Piscina y zonas ajardinadas; el aeropuerto está a unos 40 km."
+      ],
+      "caracteristicas": [
+        "2 y 3 dormitorios",
+        "2 baños",
+        "Desde 85 m² construidos",
+        "Jardín privado en plantas bajas (desde 15 m²)",
+        "Solárium en los áticos",
+        "Piscina comunitaria",
+        "1 plaza de aparcamiento",
+        "Mar a 1 km",
+        "Campo de golf a 11 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Gran piscina comunitaria entre palmeras"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Edificios junto a la piscina"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Jardines del residencial"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Fachada del edificio"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/28049836",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/28049836"
+      },
+      "referencia_habihub": "28049836"
+    },
+    {
+      "id": "serena-garden-villas",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 5,
+      "titulo": "Serena Garden Villas",
+      "zona": "Los Alcázares",
+      "provincia": "Murcia",
+      "tipologia": "Villas independientes",
+      "precio_desde": 397650,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-26",
+      "dormitorios": "3",
+      "banos": "2",
+      "m2": "101 – 108",
+      "entrega": "Q4 2026",
+      "coordenadas": [
+        37.736709,
+        -0.863063
+      ],
+      "descripcion": [
+        "Chalets independientes en Los Alcázares, a 1 km del mar, de diseño moderno y funcional.",
+        "Cada vivienda tiene jardín privado, terraza, pérgola y solárium, con opción de piscina privada. Garaje y aparcamiento; campo de golf a 3 km y aeropuerto a 33 km."
+      ],
+      "caracteristicas": [
+        "3 dormitorios",
+        "2 baños",
+        "Desde 100 m² construidos",
+        "Dos plantas",
+        "Jardín privado (desde 75 m²)",
+        "Solárium y pérgola",
+        "Opción de piscina privada",
+        "Garaje",
+        "Mar a 1 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Villa con piscina privada"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Vista aérea con piscina"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Exterior de la villa"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Solárium con zona de estar"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Piscina y jardín"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Jardín con palmera"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Patio exterior"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Salón"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Cocina"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Dormitorio principal"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Dormitorio"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Baño"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/43676511",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/43676511"
+      },
+      "referencia_habihub": "43676511"
+    }
+  ]
+}

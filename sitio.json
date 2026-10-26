@@ -1,0 +1,20 @@
+{
+  "nombre": "Urbacan Real Estate",
+  "provisional": true,
+  "url_provisional": "https://urbacanrealestate-sketch.github.io/urbacan-web",
+  "url_definitiva": "https://urbacanrealestate.com",
+  "lema": "Agencia inmobiliaria especializada en obra nueva en Costa Blanca y Costa Cálida",
+  "contacto": {
+    "correo": "info@urbacanrealestate.com",
+    "correo_tarjeta": "sergio@urbacanrealestate.com",
+    "telefono": "+34606063941",
+    "telefono_visible": "+34 606 06 39 41",
+    "whatsapp": "34642734058",
+    "whatsapp_visible": "+34 642 73 40 58",
+    "whatsapp_texto": "Hola, os escribo desde la web",
+    "instagram": "urbacanrealestate",
+    "facebook": "https://www.facebook.com/urbacanrealestate",
+    "direccion": "Avda. Juan Carlos I nº 23, 35019 Las Palmas de Gran Canaria",
+    "horario": "Lunes a viernes, 9:00–14:00 y 16:00–19:00"
+  }
+}

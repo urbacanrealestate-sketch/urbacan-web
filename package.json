@@ -1,0 +1,17 @@
+{
+  "name": "urbacan-web",
+  "private": true,
+  "type": "module",
+  "description": "Web de Urbacan Real Estate (sitio estático generado desde propiedades.json)",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "importar": "node scripts/importar.mjs"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.0.0",
+    "@fontsource/jost": "^5.0.0",
+    "@fontsource/playfair-display": "^5.0.0",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.5"
+  }
+}
