@@ -1013,6 +1013,285 @@
         "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/43676511"
       },
       "referencia_habihub": "43676511"
+    },
+    {
+      "id": "miramar-hills",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 12,
+      "titulo": "Miramar Hills",
+      "zona": "Vera",
+      "provincia": "Almería",
+      "tipologia": "Apartamentos, bajos y áticos",
+      "precio_desde": 245000,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-27",
+      "dormitorios": "2 – 3",
+      "banos": "2",
+      "m2": "60 – 93",
+      "entrega": "Q2 2027",
+      "coordenadas": [
+        37.227651,
+        -1.807878
+      ],
+      "descripcion": [
+        "Residencial en Vera, a unos 0,7 km del mar, con apartamentos, plantas bajas y áticos; desde varias viviendas hay vistas al mar.",
+        "Las viviendas se entregan amuebladas y equipadas con electrodomésticos, aire acondicionado y armarios empotrados. Todas tienen terraza; los áticos, solárium privado, y las plantas bajas, acceso directo a las zonas ajardinadas. Piscina y urbanización cerrada."
+      ],
+      "caracteristicas": [
+        "2 y 3 dormitorios",
+        "2 baños",
+        "Desde 60 m² construidos",
+        "Amuebladas y con electrodomésticos",
+        "Solárium en los áticos",
+        "Piscina comunitaria",
+        "Garaje y aparcamiento",
+        "Vistas al mar",
+        "Mar a 0,7 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Piscina comunitaria con vistas al mar"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Zonas verdes y piscina"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Vistas al mar desde el residencial"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Terraza con pérgola"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Solárium"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Vista general del residencial"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Piscina y jardines"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Salón con vistas"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Salón comedor"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Dormitorio"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Cocina"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Cocina abierta"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/29478808",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/29478808"
+      },
+      "referencia_habihub": "29478808"
+    },
+    {
+      "id": "el-yado-bungalows",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 13,
+      "titulo": "Residencial El Yado Bungalows",
+      "zona": "San Juan de los Terreros",
+      "provincia": "Almería",
+      "tipologia": "Bungalows altos y bajos",
+      "precio_desde": 409900,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-27",
+      "dormitorios": "2",
+      "banos": "2 + aseo",
+      "m2": "174 – 187",
+      "entrega": "Q3 2026",
+      "coordenadas": [
+        37.345882,
+        -1.687992
+      ],
+      "descripcion": [
+        "Selección limitada de seis bungalows en San Juan de los Terreros, junto al mar: bungalows con solárium y bungalows con jardín.",
+        "Equipados con videoportero, persianas eléctricas, aire acondicionado, armarios empotrados y electrodomésticos. Cada vivienda tiene jardín privado, terrazas y solárium. Piscina comunitaria, zonas ajardinadas y urbanización cerrada."
+      ],
+      "caracteristicas": [
+        "2 dormitorios",
+        "2 baños y aseo",
+        "Desde 174 m² construidos",
+        "Jardín privado",
+        "Solárium",
+        "Piscina comunitaria",
+        "2 plazas de aparcamiento",
+        "Urbanización cerrada",
+        "Mar: 0 km según HabiHub"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Piscina comunitaria entre palmeras"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Vista aérea junto al mar"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Piscina y bungalows"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Solárium con zona de estar"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Vista aérea del residencial"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Bungalows con jardín"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Terrazas y solárium"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Salón con cocina"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Salón comedor"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Dormitorio"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Baño"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Fachada"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/50759722",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/50759722"
+      },
+      "referencia_habihub": "50759722"
+    },
+    {
+      "id": "monte-carmelo-resort",
+      "region": "peninsula",
+      "estado": "activa",
+      "orden": 14,
+      "titulo": "Monte Carmelo Resort",
+      "zona": "Vera",
+      "provincia": "Almería",
+      "tipologia": "Villas independientes",
+      "precio_desde": 429000,
+      "precio_tipo": "desde",
+      "fecha_datos": "2026-10-27",
+      "dormitorios": "3",
+      "banos": "2 – 3",
+      "m2": "90 – 122",
+      "entrega": "Q4 2024",
+      "coordenadas": [
+        37.227741,
+        -1.807765
+      ],
+      "descripcion": [
+        "Conjunto residencial de villas independientes en Vera, a 1 km del mar y a unos 12 km del aeropuerto, en un entorno tranquilo con servicios cercanos.",
+        "Cada villa tiene jardín privado, terrazas amplias y piscina privada; algunas disponen de solárium. Zonas ajardinadas y urbanización cerrada."
+      ],
+      "caracteristicas": [
+        "3 dormitorios",
+        "2 y 3 baños",
+        "Desde 90 m² construidos",
+        "Piscina privada",
+        "Jardín privado",
+        "Solárium en algunas villas",
+        "Urbanización cerrada",
+        "Mar a 1 km",
+        "Aeropuerto a 12 km"
+      ],
+      "fotos": [
+        {
+          "archivo": "01.webp",
+          "alt": "Villa con piscina privada"
+        },
+        {
+          "archivo": "02.webp",
+          "alt": "Villa y piscina"
+        },
+        {
+          "archivo": "03.webp",
+          "alt": "Fachada de la villa"
+        },
+        {
+          "archivo": "04.webp",
+          "alt": "Exterior con piscina"
+        },
+        {
+          "archivo": "05.webp",
+          "alt": "Solárium con pérgola"
+        },
+        {
+          "archivo": "06.webp",
+          "alt": "Salón"
+        },
+        {
+          "archivo": "07.webp",
+          "alt": "Cocina con isla"
+        },
+        {
+          "archivo": "08.webp",
+          "alt": "Comedor"
+        },
+        {
+          "archivo": "09.webp",
+          "alt": "Salón"
+        },
+        {
+          "archivo": "10.webp",
+          "alt": "Dormitorio"
+        },
+        {
+          "archivo": "11.webp",
+          "alt": "Vista aérea"
+        },
+        {
+          "archivo": "12.webp",
+          "alt": "Terraza"
+        }
+      ],
+      "enlaces": {
+        "habihub": "https://agent.habihub.com/developments/31564188",
+        "thenewpropers": null,
+        "anuncio": null,
+        "landing": "https://www.thenewpropers.com/agencia/01c990ee-1091-7073-8855-4ee6606cc972/obra-nueva/31564188"
+      },
+      "referencia_habihub": "31564188"
     }
   ]
 }

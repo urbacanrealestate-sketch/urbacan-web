@@ -476,5 +476,155 @@
   "la-naval-80": {
     "pagina": "https://urbacanrealestate-sketch.github.io/urbacan-anuncios/",
     "variable": "IMGS"
-  }
+  },
+  "miramar-hills": [
+    {
+      "archivo": "01.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/12.jpg"
+    },
+    {
+      "archivo": "02.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/15.jpg"
+    },
+    {
+      "archivo": "03.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/outdoor/3.jpg"
+    },
+    {
+      "archivo": "04.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/outdoor/4.jpg"
+    },
+    {
+      "archivo": "05.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/outdoor/6.jpg"
+    },
+    {
+      "archivo": "06.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/21.jpg"
+    },
+    {
+      "archivo": "07.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/13.jpg"
+    },
+    {
+      "archivo": "08.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/36.jpg"
+    },
+    {
+      "archivo": "09.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/30.jpg"
+    },
+    {
+      "archivo": "10.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/24.jpg"
+    },
+    {
+      "archivo": "11.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/38.jpg"
+    },
+    {
+      "archivo": "12.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/29478808/media/images/26.jpg"
+    }
+  ],
+  "el-yado-bungalows": [
+    {
+      "archivo": "01.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/outdoor/12.jpg"
+    },
+    {
+      "archivo": "02.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/outdoor/8.jpg"
+    },
+    {
+      "archivo": "03.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/commonareas/12.jpg"
+    },
+    {
+      "archivo": "04.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/outdoor/13.jpg"
+    },
+    {
+      "archivo": "05.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/outdoor/7.jpg"
+    },
+    {
+      "archivo": "06.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/commonareas/4.jpg"
+    },
+    {
+      "archivo": "07.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/commonareas/11.jpg"
+    },
+    {
+      "archivo": "08.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/indoor/2.jpg"
+    },
+    {
+      "archivo": "09.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/indoor/4.jpg"
+    },
+    {
+      "archivo": "10.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/indoor/6.jpg"
+    },
+    {
+      "archivo": "11.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/indoor/7.jpg"
+    },
+    {
+      "archivo": "12.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/50759722/media/images/commonareas/1.jpg"
+    }
+  ],
+  "monte-carmelo-resort": [
+    {
+      "archivo": "01.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/18.jpg"
+    },
+    {
+      "archivo": "02.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/3.jpg"
+    },
+    {
+      "archivo": "03.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/1.jpg"
+    },
+    {
+      "archivo": "04.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/19.jpg"
+    },
+    {
+      "archivo": "05.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/20.jpg"
+    },
+    {
+      "archivo": "06.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/10.jpg"
+    },
+    {
+      "archivo": "07.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/16.jpg"
+    },
+    {
+      "archivo": "08.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/11.jpg"
+    },
+    {
+      "archivo": "09.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/14.jpg"
+    },
+    {
+      "archivo": "10.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/15.jpg"
+    },
+    {
+      "archivo": "11.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/7.jpg"
+    },
+    {
+      "archivo": "12.webp",
+      "url": "https://medianewbuild.com/file/hh-media-bucket/developments_v2/31564188/media/images/6.jpg"
+    }
+  ]
 }

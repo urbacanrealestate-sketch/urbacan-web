@@ -261,7 +261,7 @@ async function paginaInicio(imgs) {
   const minis = (await Promise.all(seleccion.map((p) => miniatura(p)))).join("\n");
   const accesos = [
     can.length ? `<a class="acceso" href="${u("/canarias/")}"><span><b>Canarias</b><span>${can.length} ${can.length === 1 ? "propiedad" : "propiedades"} · Gran Canaria</span></span>${I.flecha}</a>` : "",
-    pen.length ? `<a class="acceso" href="${u("/peninsula/")}"><span><b>Península</b><span>${pen.length} ${pen.length === 1 ? "propiedad" : "propiedades"} · Alicante y Murcia</span></span>${I.flecha}</a>` : "",
+    pen.length ? `<a class="acceso" href="${u("/peninsula/")}"><span><b>Península</b><span>${pen.length} ${pen.length === 1 ? "propiedad" : "propiedades"} · Alicante, Murcia y Almería</span></span>${I.flecha}</a>` : "",
   ].join("");
   const regionCard = (r, info, alt, texto, n) => `<a class="region aparece" href="${u(REGIONES[r].ruta)}">${imgTag(info, alt, { sizes: "(min-width:800px) 50vw, 100vw" })}<div class="txt"><p class="etiqueta">${n} ${n === 1 ? "propiedad" : "propiedades"}</p><h3>${REGIONES[r].nombre}</h3><p>${texto}</p><span class="mas">Ver propiedades ${I.flecha}</span></div></a>`;
   const penFoto = pen.length ? await fotoInfo(pen.find((p) => p.id === "pinatar-luxury-homes") || pen[0], 0) : null;
@@ -380,7 +380,7 @@ ${seccionContacto()}`;
   const ld = { "@context": "https://schema.org", "@type": "ItemList", name: `Propiedades en ${R.nombre}`, itemListElement: lista.map((p, i) => ({ "@type": "ListItem", position: i + 1, url: abs(`/propiedades/${p.id}/`), name: p.titulo })) };
   return pagina({
     titulo: `${R.nombre}: propiedades en venta · Urbacan Real Estate`,
-    descripcion: r === "peninsula" ? `Obra nueva en Alicante y Murcia: ${lista.length} promociones en la Costa Blanca y la Costa Cálida con fotos, precios orientativos y dossier completo.` : `Propiedades en venta en Gran Canaria con Urbacan Real Estate.`,
+    descripcion: r === "peninsula" ? `Obra nueva en Alicante, Murcia y Almería: ${lista.length} promociones en la Costa Blanca y la Costa Cálida con fotos, precios orientativos y dossier completo.` : `Propiedades en venta en Gran Canaria con Urbacan Real Estate.`,
     ruta: R.ruta, ogImagen: (await imagenOG(fotoOrigen(lista[0], typeof lista[0].fotos[0] === "string" ? lista[0].fotos[0] : lista[0].fotos[0].archivo), `${r}/og.jpg`)), jsonld: [ld], cuerpo,
   });
 }
