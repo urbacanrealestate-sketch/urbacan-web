@@ -27,6 +27,7 @@
 @media (min-width:1100px){:root{--gutter:48px}}
 
 *,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 body{margin:0;background:var(--tinta);color:var(--texto-claro);font:300 1.0625rem/1.65 var(--sans);text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
