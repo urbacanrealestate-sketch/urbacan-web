@@ -48,7 +48,12 @@ jobs:
           fi
 
       - name: Generar la web
-        run: node scripts/build.mjs
+        # Dominio propio (urbacanrealestate.com). El noindex lo sigue controlando "provisional" en sitio.json
+        env:
+          SITE_URL: https://urbacanrealestate.com
+        run: |
+          node scripts/build.mjs
+          echo "urbacanrealestate.com" > _site/CNAME
 
       - uses: actions/configure-pages@v5
 
