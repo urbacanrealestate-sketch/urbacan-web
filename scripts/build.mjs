@@ -37,6 +37,10 @@ const entregaTxt = (q) => {
   return `${["1.er", "2.º", "3.er", "4.º"][+m[1] - 1]} trimestre de ${m[2]}`;
 };
 const wa = (texto) => `https://wa.me/${C.whatsapp}?text=${encodeURIComponent(texto)}`;
+// Aviso de consentimiento junto a los botones de WhatsApp
+const AVISO_WA = "Al pulsar, se abrirá WhatsApp con un mensaje en el que aceptas que te escribamos.";
+const avisoWa = () => `<p class="aviso-wa">${AVISO_WA}</p>`;
+const ESTILO_AVISO_WA = `.aviso-wa{margin:.55rem 0 0;font:400 .72rem/1.45 var(--sans);color:var(--texto-suave);text-transform:none;letter-spacing:0}.zona-crema .aviso-wa{color:var(--piedra-oscura)}.aviso-flot{position:fixed;right:16px;bottom:calc(82px + env(safe-area-inset-bottom));z-index:50;max-width:15rem;margin:0;padding:.4rem .6rem;background:rgba(20,18,15,.9);border:1px solid var(--linea);text-align:right;pointer-events:none}.aviso-barra{grid-column:1/-1;margin:0;padding:.4rem .8rem;background:var(--tinta);text-align:center}.con-barra{padding-bottom:84px}@media (min-width:980px){.aviso-flot{display:none}.con-barra{padding-bottom:0}}`;
 const mkdir = (d) => fs.mkdirSync(d, { recursive: true });
 const escribir = (rel, contenido) => { const f = path.join(SALIDA, rel); mkdir(path.dirname(f)); fs.writeFileSync(f, contenido); };
 const hash = (f) => crypto.createHash("md5").update(fs.readFileSync(f)).digest("hex").slice(0, 8);
@@ -145,6 +149,7 @@ function pagina({ titulo, descripcion, ruta, ogImagen, jsonld = [], cuerpo, clas
 <link rel="preload" href="${u("/assets/fonts/jost-300.woff2")}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="${u("/assets/fonts/playfair-display-500.woff2")}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${u("/assets/css/estilos.css")}?v=${CSS_V}">
+<style>${ESTILO_AVISO_WA}</style>
 ${jsonld.map((j) => `<script type="application/ld+json">${JSON.stringify(j)}</script>`).join("\n")}
 </head>
 <body class="${claseBody}">
@@ -156,7 +161,7 @@ ${cuerpo}
 </main>
 ${pie()}
 ${barra}
-${sinFlotante ? "" : `<a class="wa-flotante" href="${wa(waTexto)}" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp (se abre en una pestaña nueva)">${I.wa}</a>`}
+${sinFlotante ? "" : `<p class="aviso-wa aviso-flot">${AVISO_WA}</p><a class="wa-flotante" href="${wa(waTexto)}" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp (se abre en una pestaña nueva)">${I.wa}</a>`}
 <script src="${u("/assets/js/web.js")}?v=${JS_V}" defer></script>
 </body>
 </html>`;
@@ -202,7 +207,7 @@ function pie() {
     <div>
       <h2>Contacto</h2>
       <ul>
-        <li><a href="${wa(C.whatsapp_texto)}" target="_blank" rel="noopener">WhatsApp ${esc(C.whatsapp_visible)}</a></li>
+        <li><a href="${wa(C.whatsapp_texto)}" target="_blank" rel="noopener">WhatsApp ${esc(C.whatsapp_visible)}</a>${avisoWa()}</li>
         <li><a href="tel:${C.telefono}">Teléfono ${esc(C.telefono_visible)}</a></li>
         <li><a href="mailto:${C.correo}">${esc(C.correo)}</a></li>
         <li><a href="https://www.instagram.com/${C.instagram}/" target="_blank" rel="noopener">Instagram @${esc(C.instagram)}</a></li>
@@ -232,13 +237,13 @@ async function miniatura(p, { sizes = "(min-width:1100px) 33vw, (min-width:700px
 }
 
 function botonesContacto(texto, asunto) {
-  return `<a class="btn btn-bloque" href="${wa(texto)}" target="_blank" rel="noopener">${I.wa}<span>WhatsApp</span><span class="vh"> (se abre en una pestaña nueva)</span></a>
+  return `<a class="btn btn-bloque" href="${wa(texto)}" target="_blank" rel="noopener">${I.wa}<span>WhatsApp</span><span class="vh"> (se abre en una pestaña nueva)</span></a>${avisoWa()}
       <a class="btn btn-bloque" href="tel:${C.telefono}">${I.tel}<span>Llamar · ${esc(C.telefono_visible)}</span></a>
       <a class="btn btn-bloque" href="mailto:${C.correo}?subject=${encodeURIComponent(asunto)}">${I.mail}<span>Escribir un correo</span></a>`;
 }
 
 function barraContacto(texto) {
-  return `<nav class="barra-contacto" aria-label="Contacto rápido"><a class="wa" href="${wa(texto)}" target="_blank" rel="noopener">${I.wa}<span>WhatsApp</span></a><a href="tel:${C.telefono}">${I.tel}<span>Llamar</span></a></nav>`;
+  return `<nav class="barra-contacto" aria-label="Contacto rápido"><p class="aviso-wa aviso-barra">${AVISO_WA}</p><a class="wa" href="${wa(texto)}" target="_blank" rel="noopener">${I.wa}<span>WhatsApp</span></a><a href="tel:${C.telefono}">${I.tel}<span>Llamar</span></a></nav>`;
 }
 
 const agenteLD = () => ({
@@ -342,7 +347,7 @@ function seccionContacto() {
       </ul>
     </div>
     <div class="lista-contacto aparece">
-      <a class="btn btn-oro btn-grande" href="${wa(C.whatsapp_texto)}" target="_blank" rel="noopener">${I.wa}<span>Escríbenos por WhatsApp</span><span class="vh"> (se abre en una pestaña nueva)</span></a>
+      <a class="btn btn-oro btn-grande" href="${wa(C.whatsapp_texto)}" target="_blank" rel="noopener">${I.wa}<span>Escríbenos por WhatsApp</span><span class="vh"> (se abre en una pestaña nueva)</span></a>${avisoWa()}
       <a class="btn btn-grande" href="tel:${C.telefono}">${I.tel}<span>Llamar · ${esc(C.telefono_visible)}</span></a>
       <a class="btn btn-grande" href="mailto:${C.correo}">${I.mail}<span>${esc(C.correo)}</span></a>
       <a class="btn btn-grande" href="https://www.instagram.com/${C.instagram}/" target="_blank" rel="noopener">${I.ig}<span>@${esc(C.instagram)}</span><span class="vh"> (se abre en una pestaña nueva)</span></a>
@@ -389,7 +394,7 @@ async function paginaPropiedad(p) {
   const infos = []; for (let i = 0; i < p.fotos.length; i++) infos.push(await fotoInfo(p, i));
   const og = await imagenOG(fotoOrigen(p, typeof p.fotos[0] === "string" ? p.fotos[0] : p.fotos[0].archivo), `propiedades/${p.id}/og.jpg`);
   const R = REGIONES[p.region];
-  const textoWa = `Hola, os escribo desde la web, me interesa ${p.titulo}`;
+  const textoWa = `Hola, os escribo desde la web, me interesa ${p.titulo} y acepto que me escribáis por WhatsApp.`;
   const claves = [
     ["Precio", precioTexto(p)],
     ["Dormitorios", p.dormitorios],
@@ -511,7 +516,7 @@ function paginaTarjeta(imgs, qrSvg) {
         <span class="filete" style="margin-inline:auto"></span>
         <p class="texto-suave" style="max-width:34ch;margin-inline:auto">${esc(sitio.lema)}</p>
         <div class="acciones" style="display:grid;gap:10px;margin-top:1.4rem;text-align:left">
-          <a class="btn btn-oro btn-bloque" href="${wa(C.whatsapp_texto)}" target="_blank" rel="noopener">${I.wa}<span>Escribir por WhatsApp</span></a>
+          <a class="btn btn-oro btn-bloque" href="${wa(C.whatsapp_texto)}" target="_blank" rel="noopener">${I.wa}<span>Escribir por WhatsApp</span></a>${avisoWa()}
           <a class="btn btn-bloque" href="tel:${T.telefono}">${I.tel}<span>Llamar · ${esc(T.telefono_visible)}</span></a>
           <a class="btn btn-bloque" href="mailto:${T.correo_tarjeta}" style="text-transform:none;letter-spacing:.04em">${I.mail}<span>${esc(T.correo_tarjeta)}</span></a>
           <a class="btn btn-bloque" href="${web}/">${I.web}<span>Ver nuestra web</span></a>
